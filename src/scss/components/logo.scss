@@ -1,3 +1,15 @@
-.logo {
+@import "../variables";
+@import "../utils/functions";
 
+
+.logo {
+  background-image: url("#{$img-path}/logo.svg");
+  background-repeat: no-repeat;
+  width: px-to-Rem(64px);
+  height: px-to-Rem(64px);
+  display: inline-block;
+  margin-top: px-to-Rem(10px);
+  margin-bottom: px-to-Rem(10px);
+  overflow: hidden;
+  text-indent: -999px;
 }
